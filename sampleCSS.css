@@ -1,0 +1,17 @@
+:root {
+  --red: #f00;
+}
+
+.warning {
+  color: var(--red);
+}
+
+@media (--breakpoint-small) {
+  .sm-col-6 {
+    width: 50%;
+  }
+}
+
+@custom-media --breakpoint-small (min-width: 40em);
+
+/* .col-4 { calc( 4 / 12 * 100% ) }; */
