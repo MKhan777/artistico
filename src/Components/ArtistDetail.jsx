@@ -1,3 +1,7 @@
+/*
+Artist detail render Page
+*/
+
 import React, { Component } from "react";
 import { Link, Switch } from "react-router-dom";
 import {

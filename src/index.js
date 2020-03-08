@@ -1,3 +1,11 @@
+/*
+File : Index.js
+Author : Muhammad Talha Khan
+Description : This is the main index file
+that is the starting point of the app.
+*/
+
+//import packages
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -8,8 +16,13 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 
+//get root element for rendering
 ReactDOM.render(<App />, document.getElementById("root"));
 
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
